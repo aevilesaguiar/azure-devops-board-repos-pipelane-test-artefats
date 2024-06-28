@@ -40,12 +40,40 @@ Basicamente, os dois produtos possuem as mesmas funcionalidades.A plataforma do 
 Os 5 Principais serviços:
 
 - 1. Azure Boards: esse serviço é responsável pela parte de gerenciamento e planejamento do projeto. Nele podemos adotar 4 modelos de processos de processos **Basic**, o **scrum, o ágil e o CMMI** .Criamos nossas histórias de usuários, tarefas e bugs. Também fazemos o planejamento de horas por atividade. Temos os gráficos como burndow, burnup, conseguimos medir a velovidade do time e esforço aplicado ás tarefas, enfim toda a parte de planejamento do projeto.
-  2. Azure Pipelines: e ele é o tema do nosso treinamento , é aqui que podemos adicionar a integração continua, ou s.eja quando eu fizer um commit ou um push dispara uma rotina para fazer o build da aplicação, fazendo também os testes unitários, avaliando a qualidade com sonar, e muitas outras ações. Etambém onde teremos os releases, onde faremos a entrega continua, mantendo a aplicação atualizada de forma automática, podendo adicionar aprovações para subir para os mais distintos ambientes.
-  3. Temos também no azure devops o serviço para hospedar o código, chamado de azure repos. Nele temos repositórios do GIT e também, do ainda não extinto TFVC, repositório proprietário da Microsoft, que está cada dia mais perdendo espaço para o git.Podemos criar inúmeros repositórios privados e também públicos. E ultimamente com a aquisição do GitHub pela Microsoft, podemos também unir facilmente com o repositório do GitHub, além, claro, de qualquer outro repositório como Git Lab ou serviços de Git on primers. Podemos adicionar pool request ao git facilmente.
-  4. Outro serviço que temos no azure devops é o Azure test Plans. Nele podemos adicionar testes funcionais, testes automatizados, testes de carga e muito mais.Temos ferramentas excelentes para toda essa parte de validação de qualidade da nossa aplicação.
-  5. Azure Artifacts: Com ele podemos compartilhar pacotes na MAVEN e NPM de fontes públicas e privadas com toda a nossa equipe.
+
+<img width="615" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/26b5d72b-a577-4063-a965-ada1f729b76c">
+
+  2. Azure Pipelines: e ele é o tema do nosso treinamento , é aqui que podemos adicionar a integração continua, ou s.eja quando eu fizer um commit ou um push dispara uma rotina para fazer o build da aplicação, fazendo também os testes unitários, avaliando a qualidade com sonar, e muitas outras ações. Etambém onde teremos os releases, onde faremos a entrega continua, mantendo a aplicação atualizada de forma automática, podendo adicionar aprovações para subir para os mais distintos ambientes. Fazemos a integração e entrega continua (CI/CD) do nosso código e também da nossa infraestrutura.
+    
+<img width="604" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5749c1df-efd2-4707-ab3f-f3ca600016f4">
+
+  3. Temos também no azure Repos o serviço para hospedar o código, chamado de azure repos. Nele temos repositórios do GIT e também, do ainda não extinto TFVC, repositório proprietário da Microsoft, que está cada dia mais perdendo espaço para o git.Podemos criar inúmeros repositórios privados e também públicos. E ultimamente com a aquisição do GitHub pela Microsoft, podemos também unir facilmente com o repositório do GitHub, além, claro, de qualquer outro repositório como Git Lab ou serviços de Git on primers. Podemos adicionar pool request ao git facilmente.
+
+<img width="614" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5152af56-6af0-4771-b2a5-1ccd7d0884df">
+
+     
+  4. Outro serviço que temos no azure devops é o Azure test Plans. Nele podemos adicionar testes funcionais, testes automatizados, testes de carga e muito mais.Temos ferramentas excelentes para toda essa parte de validação de qualidade da nossa aplicação. Focado em qualidade, podemos rodar testes exploratórios, manuais e automatizados
+     
+<img width="595" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/dc36f1e9-de14-4b98-95f5-b0ab11303303">
+
+5. Azure Artifacts: Com ele podemos compartilhar pacotes na MAVEN e NPM de fontes públicas e privadas com toda a nossa equipe. Podemos criar, hospedar e compartilhar código empacotado com o nosso time, e também podemos facilmente adicioná-lo a nossa integração e entregação continua.
+
+<img width="619" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/73a46db5-7f7d-474b-9f1e-2e5b2f10fd65">
+   
+6. Extensões disponíveis do market place, temos mais de mil extensões
+
+ <img width="612" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/95d2c36d-5aea-4325-bd21-9b8027f0e66e">
+
 
 Bom, além disso, podemos pensar no Azure DevOps como um orquestrador, onde podemos adicionar mais ferramentas e fortalecer ainda mais a plataforma de DevOps da empresa.
+
+- timetracker: gerenciar as horas do time
+- integração a docker
+- slack e gitihub
+
+<img width="632" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/f64720bc-ae78-4fdf-8af0-d2da4a840464">
+
+  
 
 ## Precificação do Azure devops
 
@@ -193,3 +221,8 @@ Em resumo, CI/CD não é apenas uma abordagem moderna para o desenvolvimento de 
 
 TEXTO CI/CD: Hugo Habbema  -> https://medium.com/@habbema/desvendando-ci-cd-b56f515ddd20
 
+## Documentação Azure devops
+
+https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops
+
+##
