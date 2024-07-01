@@ -152,19 +152,20 @@ Use o feedback dos testes e do monitoramento para melhorar continuamente o códi
 
 Elaborar um Fluxo de CI/CD levando em consideração as ferramentas que estamos utilizando (bitbucket e o dataproc), avaliando soluções de testes para os notebooks e principalmente, avaliando soluções de automatização dos processos de testes, integração e entrega.
 
-Custos
+- Custos
+  
 Explicamos a diferença entre integração contínua e entrega contínua, mas ainda não exploramos as razões pelas quais você deveria adotá-las. Embora haja um custo evidente para a implementação de cada prática, esses custos são amplamente compensados pelos benefícios que elas oferecem.
 
-Integração Contínua
+- Integração Contínua
 
-O que você precisa (custo)
+- O que você precisa (custo)
 
 Sua equipe precisará escrever testes automatizados para cada novo recurso, melhoria ou atualização de segurança.
 É necessário ter um servidor de integração contínua que possa monitorar o repositório principal e executar testes automaticamente para cada novo commit enviado por push.
 Os desenvolvedores devem mesclar suas alterações com a maior frequência possível, pelo menos uma vez por dia.
 
 
-O que você ganha
+- O que você ganha
 
 Menos bugs são enviados para a produção, uma vez que as regressões são capturadas antecipadamente por meio de testes automatizados.
 A compilação de versões torna-se fácil, uma vez que problemas de integração são resolvidos precocemente.
@@ -172,7 +173,7 @@ Menos mudança de contexto, uma vez que os desenvolvedores são alertados imedia
 Custos de teste são drasticamente reduzidos, pois seu servidor de integração contínua pode executar centenas de testes em questão de segundos.
 Sua equipe de controle de qualidade gasta menos tempo em testes e pode se concentrar em melhorar significativamente a cultura de qualidade.
 
-Entrega Contínua
+- Entrega Contínua
 
 O que você precisa (custo)
 
@@ -200,7 +201,8 @@ Os lançamentos são menos arriscados e mais fáceis de corrigir em caso de prob
 Os clientes veem um fluxo contínuo de melhorias e aumentos de qualidade todos os dias, em vez de apenas uma vez por mês, trimestre ou ano.
 
 
-Benefícios
+- Benefícios
+  
 A CI/CD oferece uma série de benefícios significativos:
 
 Detecção Precoce de Erros: A CI verifica constantemente o código, identificando erros e problemas de integração no estágio mais inicial do desenvolvimento.
@@ -211,7 +213,9 @@ Colaboração Eficiente: A CI promove a colaboração contínua entre membros da
 Maior Confiança e Transparência: Com a CI/CD, a equipe tem mais confiança na estabilidade do código e pode rastrear as alterações com mais facilidade.
 
 
-Conclusão
+- Conclusão
+
+  
 Desvendando CI/CD, ou Integração Contínua e Entrega Contínua, revela-se um conjunto de práticas essenciais no mundo do desenvolvimento de software. No cerne dessas práticas está a automação, que simplifica processos, economiza tempo e garante a qualidade do código e do software entregue. A Integração Contínua começa como o primeiro passo, garantindo que as alterações sejam integradas e testadas continuamente, capturando problemas logo no início. A Entrega Contínua leva a automação um passo adiante, permitindo a implantação simplificada e repetível do código. Finalmente, a Implantação Contínua garante uma entrega contínua de melhorias de qualidade aos clientes.
 
 Embora a adoção de CI/CD envolva um investimento inicial em termos de escrita de testes e automação, os benefícios são claros. A detecção precoce de erros, a maior qualidade do software, a automação de tarefas, as implantações mais rápidas e uma colaboração eficiente são apenas algumas das vantagens que as práticas de CI/CD oferecem. Além disso, a equipe ganha mais confiança na estabilidade do código e uma visão transparente do processo.
