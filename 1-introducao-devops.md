@@ -69,7 +69,7 @@ Bom, além disso, podemos pensar no Azure DevOps como um orquestrador, onde pode
 
 - timetracker: gerenciar as horas do time
 - integração a docker
-- slack e gitihub
+- slack e github
 
 <img width="632" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/f64720bc-ae78-4fdf-8af0-d2da4a840464">
 
@@ -80,7 +80,7 @@ Bom, além disso, podemos pensar no Azure DevOps como um orquestrador, onde pode
 Azure devops é gratuito, mas não é bem assim, ele tem diversas limitações. Até 5 pessoas o custo é zero
 
 
-CI/CD
+## CI/CD
 
 ![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/23669bde-15b7-4c2f-89ce-f9c4bf79f494)
 
