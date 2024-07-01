@@ -228,6 +228,80 @@ TEXTO CI/CD: Hugo Habbema  -> https://medium.com/@habbema/desvendando-ci-cd-b56f
 
 ## Documentação Azure devops
 
+
+
 https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops
 
-##
+## Organização e Projetos
+
+Organização conecta grupo de projetos relacionandos,  você pode usar uma conta do github , conta corporativa, conta pessoal da microsoft ou de instituição de ensino. Na conta corporativa podemos usar o "Azure Active Directory também conhecido como AD", para usar em conjunto com uma conta corporativa ou profissional, assim conectando automaticamente a sua organização.  A identidade com a qual você entra define o provedor de identidade que a organização usa, como a sua conta AD ou da microsoft. E essa conta fornece as credenciais para fazer login como administrador em sua nova organização, e utiliza o seguinte modelo de url para acesso:
+
+<img width="403" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/2243ea7c-ebdb-4df8-be7b-fd2c07a1a5dd">
+
+E você pode escolher como dividir as organizações da sua conta:
+
+- você pode dividir por divisões de negócios, divisões regionais e ainda quanto a sua estrutura empresarial . Ecada organização obtém suas contas gratuitas, podendo ter até 5 usuários nelas.
+
+<img width="332" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/62fca149-6623-4fd5-b75f-2efdcfda8add">
+
+Essas organizações podem ter inúmeros projetos.
+
+Se você for trabalhar com Azure repos, como repositório de código,  você pode criar repositórios dentro desse projeto.
+
+<img width="398" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/606dab54-7343-4d85-bccb-ca500367b090">
+
+
+Se for trabalhar com Azure pipeline , pode criar suas esteiras de integração e entrega contínua como desejar:
+
+<img width="350" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/e82eaba9-1719-43d9-a40f-be790bf7b5ac">
+
+E quando for utilizar o Azure boards, podemos ter inúmeros produtos e serviços dentro de um único projeto
+
+<img width="397" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/f11710a2-a214-45d3-87c1-aa419d3eed5f">
+
+E resumindo, podemos ter uma organização com diversos projetos, diversos produtos com seu planejamento e sprints, e diversos repositórios com sua branch.
+
+<img width="438" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/1fb4f8b8-999e-4b1d-ae33-55f2f5016198">
+
+Além disso podemos ter em cada projeto diversos times e ainda agrupá-los:
+
+<img width="410" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/776739e1-44cf-4846-b286-e2bf05929dd1">
+
+Por enquanto devemos ter em mente que sempre devemos ter uma organização e seus projetos dentro dela.
+
+## Usuários, grupos e times
+
+Diferenças entre usuários, grupos e times no Azure devops.
+
+Primeiro temos 2 tipos de usuários:
+
+<img width="400" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/ecc7150d-be38-4a98-bb30-83ed54c01526">
+
+
+- Basic : esse usuário pode ter acesso total, pode usar o serviço de azure devops caso o administrador da organização permita, 
+- Stakeholder: também temos o atakeholder esse tipo de usuário não tem essas vantagens, ele pode visualizar boa parte dos serviços, mas não tem poder de gerenciar o código git do azure repos, ele é usado quando queremos disponibilizar o acesso a usuários que irão apenas acompanhar o projeto, principalmente relacionado ao azure boards.
+
+Além disso temos os grupos:
+
+O agrupamento de membros com as mesmas permissões, e isso facilita o trabalho do administrador, quando precisamos incluir usuários com as mesmas permissões ou restrições:
+
+<img width="403" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/380f4c63-fcbc-4d1b-b34d-cba7b7b3b97e">
+
+<img width="398" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/2d69bedd-e714-4c08-843e-05a93095d6e9">
+
+Além dos grupos, temos os times, um time é vinculado a apenas um projeto, todo projeto precisa ter pelo menos um time, que por padrão tem o mesmo nome do projeto, e nesses times podemos atribuir áreas
+
+<img width="392" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/01755ac0-ecd4-4687-9257-b1493961a06a">
+
+<img width="406" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/1ea7fb4d-7edb-4794-95f9-4773826fe35a">
+
+E quanto a limitações:
+
+<img width="404" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/64b9ba15-b08b-4c75-8984-a467c33f580d">
+
+O tipo basic, camada gratuita, podemos ter até 5 usuários, já stakeholders podemos ter ilimitados usuários.
+
+
+
+
+
