@@ -88,7 +88,8 @@ O que significa CI e CD?
 CI/CD, ou Integração Contínua e Entrega Contínua, são abordagens ágeis de desenvolvimento de software que visam automatizar o processo de construção, teste e entrega de software. Nesse sentido, elas visam automatizar e acelerar o processo de entrega de novas funcionalidades e atualizações aos usuários.
 
 
-Introdução
+- Introdução
+  
 Imagine você trabalhando em um time com várias pessoas, trabalhando nos mesmos códigos, mudando tudo ao mesmo tempo. Tudo bem, cada um pode garantir que o código em que está trabalhando esteja integrado ao código no repositório, execute os testes, etc, mas em sua máquina, manualmente. Além disso, ainda temos que fazer o deploy já integrado e testado para o ambiente de produção. Mas vamos pensar! Se você automatizasse esse processo não seria muito melhor? Fora a economia de tempo, fazendo isso você estaria totalmente garantido de que as validações e processos necessários seriam verificados, concorda?
 
 A Integração Contínua (CI) e a Entrega Contínua (CD) são práticas essenciais na área de desenvolvimento de software que ajudam a melhorar a qualidade do código, a eficiência do processo de desenvolvimento e a capacidade de implantação de software. Neste artigo, exploraremos o que é a CI/CD, por que é importante e como você pode implementar essas práticas em seu projeto.
