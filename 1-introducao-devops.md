@@ -302,6 +302,31 @@ E quanto a limitações:
 O tipo basic, camada gratuita, podemos ter até 5 usuários, já stakeholders podemos ter ilimitados usuários.
 
 
+## Azure DevOps no cciclo de desenvolvimento
 
+Fases do projeto com uma visão DevOps
 
+<img width="614" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/3a38ef9e-3adc-4a89-a5c9-31156b00c493">
 
+- Plan: nele pensamos como será o produto,iniciamos o planejamento e o gerenciamento, nesse momento o Azure boards pode nos ajudar
+- Code : depois começa a codificação onde o nosso produto começa a tomar forma, os desenvolvedores criam códigos nas diferentes linguagens e frameworks, aqui trabalhamos com repositórios como o git e fluxo de trabalho como o git flow, e com isso o azure devops nos ajuda com o azure repos, com azure repos podemos adicionar boas práticas como code review e o per programming, além de pull requests
+- Build : depois teremos o build onde teremos o início da nossa integração continua, e a parte onde o nosso código é submetido e fazemos uma série de verificações, por exemplo podemos ver se o código nao está quebrando, ou seja nossa aplicação efetua build com sucesso , e esse é o mais básico e imprescíndivel das etapas,e é aqui e nos próximos passaos que o azure pipeline pode nos ajudar
+- test : depois temos a etapa de testes, podemos verificar se todos os testes unitarios estão ok, se nenhum está falhando, e ainda validar a cobertura de código, e nisso podemos utilizar tarefas do Azure pipeline, e ainda integrar com o Selenio e ainda efetuar testes automatizados e de integração
+- Release : o próximom passo é a release a implantação, e para isso temos a parte de releases do Azure pipelines, nesse momento devemos entregar o nosso produto com velocidade e de forma automática, sempre grantindo a qualidade;
+- Deploy: depois temos a implantação, onde precisamos fazer deploy, podemos usar a parte de releases do Azure devops e ainda integrar com ferramentas como o docker para adicionar containers as nossas aplicações e orquestrar com kubernetes
+- Operate: logo após iniciamos a operação e aí podemos adotar algumas técnicas como IAC(Infraestrutura com código)e o azure devOps pode nos ajudar, podemos versionar a nossa infraestrutura no azure repos e fazer o deploy com releases, e para isso podemos usar o ARM(Azure resource Manager), terra form e outras ferramentas Tudo isso com o apoio do AzureDevops e escalado para a nuvem; E por fim temos o Azure monitoramento o azure monitor e o Azure application insides pode nos ajudar;
+
+## Azure devOps Services x Azure devops Server
+
+Vimos os principais recursos do Azure devOps, vimos na versão service  que fica na nunvem na microsoft, temos também uma versão on premise(instalado localmente) onde podemos instalar nos servidores da nossa empresa. é chamado de Azure devops Server, praticamente possui as mesmas funcionalidades e serviços disponíveis na versão online.
+O Azure devops server é uma ferramenta colaborativa no desenvolvimento de software, e ela era anteriormente chamada de TFS e seu grande diferencial é ser intalado localmente, mas temos outras vantangens na versão servidor que são:
+- O azure devops server é criado com base em arquitetura escalável e multi camada, podemos balanceá-lo com o uso do Load Balancers
+- A nossa camada de dados pode ser agrupada com Clusters no SQL server
+- Para o uso do Azure devOps server precisamos de um banco sql server com versões 2012 ou superior
+- Podemos usar collections  e com isso cada collection pode ser uma categorização do nosso projeto e podemos atribuir a eles a escalabilidade necessária, e como temos acesso direto ao banco de dados podemos criar relatórios com SQL Server Reporting Services e usando recursos avançados como cubo e analysis Seervices, também podemos integrar comm Farms do sharepoint
+- e outra vantagem é a customização de modelos de Process (XML) através de um arquivo xml, no azure devops services podemos customizar os miodelos de processos, mas eles devem ser herdados de modelos já existentes e temos várias limitações
+- Também tem desvantagens, como manter os servidores no ar, é sua responsabilidade a infraestrutura, além do que você precisa adquirir diversos softwares e aumentar os cutos
+
+Você sabe o que é cluster? Palavra em inglês que significa “aglomerar”, “agrupar”, dentro da Tecnologia da Informação (TI) , cluster significa integrar dois ou mais computadores para que trabalhem simultaneamente no processamento de uma determinada tarefa
+
+O que é e como funciona um load balancer? Permite equilibrar a carga de trabalho entre os servidores, de forma a manter a sua capacidade a um nível ideal.O load balance é justamente a técnica que permite que um sistema, site ou aplicação continue em funcionamento mesmo com o aumento do tráfego
