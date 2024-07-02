@@ -21,5 +21,28 @@ Principais Features no Azure Boards:
 - wiki, podemos integrar a nossa documentação ao azure boards;
 - comunicação: podemos melhorar a comunicação do nosso time com a integração do slack e do teams;
 
+O que significa um processo no azure Boards? significa criar objetos no sistema de controle de itens de trabalho e pode ser um modelo de herança para o azure devops, os processos padrão são criados para atender a maioria das equipes
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/6239265e-c495-4b11-9486-67a673f6b4a0)
+
+Mas além disso podemos customizá-la.
+
+Os 4 processos padrão encontrados no Azure Boards:
+
+- Agile:indicado para quem usa metodologias ágeis. Nele os bugs são rastreados por níveis de tarefa, mas você pode configurá-los para serem rastreados a nível de histórias;
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/2f38a451-5fa1-47fc-98ea-810b1a47b4f4)
+
+  
+- Basic : ele é o modelo de processo mais leve e mais simples, fornece praticamente 3 work itens (EPIC, ISSUE, TASK), o seu uso ideal é para equipes que estãoiniciando no azure boards e precisam de simplicidade;
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/7a91aa6d-b6f6-4a5c-9511-bc1287ee723d)
+ 
+- CMMI:modelo mais antigo e menos utilizado  atualmente. Processo mais formal, com vários padrões
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/75997f0e-7f63-432e-806e-ab49807911be)
+
+  
+- Scrum :esse é  modelo mais indicado para equipes que usam a metodologia Scrum como modelo de processo. Ele controla apenas o trabalho restante
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/e435a542-ecd8-4e59-a1a4-809b92d1ec86)
+
+  
 
 
