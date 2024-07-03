@@ -290,18 +290,20 @@ Temos 4 controles para nos ajudar:
 - tags: funcionam para taguear, pode usar livremente e marcar aquele grupo de recursos, funcionando como uma categoria
  ![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/24246793-ad86-4baf-b320-6ea5879b5fb3)
 
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/28a6277b-71bb-468a-a55f-3e054ee62766)
+
 - locks: ele funciona como um bloqueio , por exemplo você pode criar um block que impessa a exclusão acidental, muito útil caso tenha mais de um usuário operando no mesmo grupo de diretório do azure
 ![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/c3499490-fd15-45fa-93bd-139c1e6e18b2)
 
 - IAM: IAM(Gerenciamento de identidade de acesso) , e podemos chamar ele de sistema de controle de acesso baseado em funções na assinatura do azure, basicamente ele permite que você ofereça aos usuários determinadas funções de assinaturas, grupos de recursos e recursos individuais; e também protege credenciais com controle de acessos baseada em risco, ferramentas de autenticação forte sem interromper  a produtividade
   ![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/2119dd33-5b6b-4569-a173-b37594e9b9a5)
 
-- Policies: policy(politicas) entidade do azure que controlea
-    
-![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/28a6277b-71bb-468a-a55f-3e054ee62766)
+- Policies: policy(politicas) entidade do azure que controla um determinado tipo de comportamento ou efeito nesse grupo de recursos
 
-    
-  
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/466d3eb9-b6bc-4be8-b124-b38cbeb6a3f5)
+
+     
+  Com esses 4 mecanismos de controle você pode controlar, gerenciar e proteger os recursos da sua solução de resposta colocando todos esses elementos em um grupo de recursos
 
 
 **TERRAFORM**: Terraform é uma ferramenta criada para construir, alterar e criar versões de infraestrutura. Portanto, ela não é uma linguagem nem um framework, mas sim um recurso usado no DevOps para garantir mais agilidade e segurança nas entregas. 
