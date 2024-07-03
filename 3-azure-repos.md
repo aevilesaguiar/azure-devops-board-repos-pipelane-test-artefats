@@ -48,7 +48,103 @@ Também temos as branchs são as ramificações do nosso código, podemos criar 
 
 Também temos os commits, um commit é tudo que subimos para a branch, é o nosso pacote de atualização do código, podendo conter inclusões, exclusões e edições do código.
 
+
+
 <img width="287" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/b0d72192-1161-4391-9914-dae4a3f721aa">
 
 
+## Pull Requests e Code review
 
+- Code review: é uma prática de revisão de código, ele consiste em quando um ou mais colaboradores revisam o código do seu colega, o code review ajuda na qualidade do software. Com o code review temos o scompartilhamento de conhecimento, criar soluções alternativas para o problema(criar melhores soluções) e compartilhar a responsabilidade(quando outra pessoa verifica o seu código ele se torna indiretamente responsável por essa implementação).
+- Pull requests(PR):  a prática de pull request facilita a colaboração dos desenvolvedores com uma interface fácil de usar para discutir alterações antes de integrá-la a um projeto. Pull request geralmente é aberto quando queremos subir um novo código para a branch develop, e só podemos subir ela assim que seus colegas aprovem ela. No azure repos podemos delimitar um numero de aprovadores.
+
+<img width="584" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/3a7c1c0e-6369-4f01-a3a1-1fe91affd38a">
+
+<img width="741" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/0c861a48-841b-4ba6-9beb-3016ac6aa407">
+
+<img width="784" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/bb5cd386-5098-4ebb-bcfb-3fabd59c4d46">
+
+<img width="811" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/4a5558ee-2436-4c23-a085-3d28ca7b488e">
+
+AGORA PRECISAMOS MERGEAR
+
+<img width="814" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/f429473e-2bc0-43da-b60c-25fba3817c3c">
+
+## Branch Policy - Obrigar PR
+
+Exemplo: aplicar uma política que obrigada que obriga que todo commit na branch main deve vir de uma pull request, então obrigamos que tudo que entre na nossa branch default seja revisada por aprovadores;
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/146f2b60-5f2b-4567-8c75-68dd054b2891)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/8b5d04e9-4605-43f3-b08a-c905a96bbcc3)
+
+a mensagem diz que não foi possivel executar o commit diretamente na branch main:
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/9466980a-284f-4830-a9ae-4a7c75c41bc5)
+
+## Branch Policy - obrigar vincular work itens
+
+obrigar vincular work itens
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/346e814b-e075-4471-b529-0c829ccc08bf)
+
+precisamos fazer um commit incluindo o work item:
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/7b996f19-4632-4fc2-910b-e090b0c8fbf6)
+
+e depois executamos o pull request
+
+<img width="632" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/17b9b661-ce80-46cf-b9a5-2f4da755fdfa">
+
+Passou o merge, sem conflito, agora podemos aprovar e completar, subimos para a branch main:
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/ff44c6cb-ea2f-4b81-b1c8-73ad4af6da37)
+
+
+<img width="935" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/948b504a-29aa-480c-91d0-d93f9fe1add0">
+
+## Comandos git
+
+O git trabalha através de linhas de comando. 
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/54c01efe-862e-4bb8-83e7-0b457a86960c)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5c51faee-53fd-401a-b317-46dc763423f5)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/284070af-7093-43a6-88a9-1a7fa95851c4)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/bc44d7e1-b055-4f92-995f-dda4ce089433)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/d2b2f0a1-20fd-40a5-9440-6f058d80d2b9)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/42c6de8c-bbcc-484a-89d3-f55d302782dc)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/25870082-53fc-4ffc-8dd9-fe3b53739ba5)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/12b8aa39-90be-4199-9034-8ce873a4bf42)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/7bd60d6a-71c7-42e2-bbc2-7522ee8c92f5)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/131da81b-1764-4ba8-9a3d-794a0de8c5d0)
+
+<img width="560" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/303311e3-4fbb-47b5-b4f0-8345b2f70b1f">
+
+<img width="559" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/4665e3dd-36cc-45ef-862d-ea8da49bc8b3">
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/a60919b1-1736-4e03-95cc-4af42c6cdc8a)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5de6236b-8c00-406e-a5c9-bbdf269d42c7)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/ed83e5ec-9cb0-4c3c-983c-832c647fec5f)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/cbfa49b4-e135-4c66-8185-a61739405c2a)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/6beb4f07-6f05-46a5-99f5-a96f639ba50a)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/d320fc9e-e95f-499f-87a8-08dd7c513745)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/73922bf7-446e-4ed7-8248-96d41bab3a3e)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5f6b2b3b-0e9b-4c85-927b-8596c3ae89bc)
+
+Com push você atualiza o repositório remoto,  com pull vc atualiza o repositorio local
