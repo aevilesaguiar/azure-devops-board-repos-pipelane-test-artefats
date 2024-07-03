@@ -44,12 +44,6 @@ Os 4 processos padrão encontrados no Azure Boards:
 ![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/e435a542-ecd8-4e59-a1a4-809b92d1ec86)
 
 
-## Azure repos
-
-![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/2c604690-a3c9-4f3e-b5bd-35230d5976f6)
-
-O Azure repos serve para hospedar os nossos repositórios e eles podem ser tanto git quanto pfvc.
-
 
 
 
