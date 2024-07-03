@@ -323,3 +323,54 @@ Possibilidade de escolher o melhor provedor, como AWS, Google Cloud, Azure, entr
 Reprodução do ambiente de forma contínua e fácil; 
 Redução de custos;
 Maior eficiência e segurança.
+
+
+## Azure app Service
+
+O azure App Service(Serviço de aplicativo do azure) é um serviço para hospedar splicativos da web, API's REST, back end móveis e até web jobs, ou seja funciona como uma hospedagem tradicional. Onde você não é responsável pelo o servidor, utilizando o modelo PaaS(Plataforma As a Service), você pode desenvolver em sua linguagem favorita, e ainda hospedar aplicações front end
+
+<img width="577" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/7bb42d7a-8bb9-42ca-b471-4a93ad389347">
+
+E por ter um modelo baseado no PaaS, os aplicativos são executados e dimensionados com facilidade em ambientes baseados em windows e linux.E também é possivel usar containers dockers. Além disso usando o App Service você adiciona segurança, balanceamento de carga, escalonamento automático e gerenciamento automático.  
+<img width="593" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/dadea39e-b85f-4282-8625-f262180a4530">
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/5e7a9eaf-41aa-41e9-8c98-78abfed5a6e2)
+
+
+## Azure CLI
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/a470c8b2-4e2b-4630-9bdd-0ded7bf887ef)
+
+CLI: Comand line interface, é a interfce de linha de comando do azure.
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/25c7ef14-ee76-4661-a7d7-426abf874f81)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/c3d8efbe-8d6a-4e7b-8f1c-f62029abab2e)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/8eff0a65-d8f8-4eae-bd5a-79fd56cb65cc)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/878e5353-2aa3-4cf5-bdf2-3d30b3fd7d34)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/394b64a1-8681-4e68-a0d8-003d5e669c90)
+
+<img width="508" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/b6f1e251-e3dc-401a-bd5a-b9594e729bb6">
+
+<img width="443" alt="image" src="https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/a8f9b5e0-fe29-4772-bd92-0205cd606b43">
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/fe721001-009c-40e9-bca3-5fcb0ce22d24)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/bec69028-2e1e-4cbb-94d3-483394ba43d2)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/3e52e4f0-a90d-471f-8015-92f48932ae5f)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/f33fe284-9b88-433c-bfcc-2b57d6ca20ae)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/0c27ae99-bfb7-4085-bdfa-5a97363c13ea)
+
+![image](https://github.com/aevilesaguiar/azure-devops-board-repos-pipelane-test-artefats/assets/52088444/dc1c79e7-2069-4f90-8931-2ead187ef270)
+
+
+Se for criar um banco de dados pode usar o azure CLI, WEB Service pode usar o azure CLI.
+
+
+O que em batch?VA programação em batch é uma forma de escrita de scripts ou sequência de comandos que possibilita a execução automatizada de tarefas em sistemas operacionais.
